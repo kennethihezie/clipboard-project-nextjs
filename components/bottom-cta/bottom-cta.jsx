@@ -2,12 +2,10 @@ import RowButton from "../row-button/row-button"
 import Text from "../Text/text"
 import TitleText from "../TitleText/title-text"
 
-const Hero = () => {
+const BottomCta = () => {
     return (
         <section id="hero">
             <div className="max-w-6xl mx-auto text-center mb-40 px-10 pt-16">
-                <img src="/images/logo.svg" alt="" className="mx-auto my-16" />
-
                 <TitleText text="A history of everything you copy" color="darkGrayishBlue" size="4xl" mdSize="5xl" />
                 
                 <Text text="Clipboard allows you to track and organize everything you copy.
@@ -19,4 +17,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default BottomCta
